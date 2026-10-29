@@ -1,0 +1,2 @@
+1.Ao tentar realizar um acesso de forma automática, a aplicação direciona para uma página de captcha, que deve ser resolvido manualmente.
+2.Ao abrir página inicial do site, é exibido um pop up que altera a cor do restante da página. Devido a isto, a evidência de sucesso do login está toda branca
