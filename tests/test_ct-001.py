@@ -24,7 +24,7 @@ def capturar_tela(navegador, resultado):
     # Monta o caminho completo da imagem
     caminho_imagem = os.path.join(
         pasta_evidencias,
-        f"login_{resultado}_{data_hora}.png"
+        f"encontrar_amigos_{resultado}_{data_hora}.png"
     )
 
     # Captura a tela
@@ -35,7 +35,7 @@ def capturar_tela(navegador, resultado):
     else:
         print("\nNão foi possível salvar a evidência.")
 
-def test_login_com_sucesso():
+def test_encontrar_amigos():
     navegador = webdriver.Chrome()
 
     try:
@@ -67,7 +67,7 @@ def test_login_com_sucesso():
             )
         )
 
-        time.sleep(15)
+        time.sleep(5)
         
         link_amigos = WebDriverWait(navegador, 10).until(
             EC.element_to_be_clickable((

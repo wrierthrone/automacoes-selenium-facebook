@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set "VIRTUAL_ENV=C:\Users\gusta\Documents\Automacao-A3\trabalho-a3"
+set "VIRTUAL_ENV=C:\Users\gusta\Documents\automacoes-selenium-facebook\automacoes-selenium-facebook\trabalho-a3"
 
 if not defined PROMPT set PROMPT=$P$G
 

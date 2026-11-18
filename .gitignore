@@ -1,1 +1,6 @@
-.trabalho-a3/
+trabalho-a3/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+*.png
